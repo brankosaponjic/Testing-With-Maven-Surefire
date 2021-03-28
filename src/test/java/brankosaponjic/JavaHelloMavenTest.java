@@ -1,11 +1,10 @@
 package brankosaponjic;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 public class JavaHelloMavenTest {
 
     @Test
-    public void getHello() {
-        System.out.println("I Ran ......!");
+    public void testGetHello() {
     }
 }
