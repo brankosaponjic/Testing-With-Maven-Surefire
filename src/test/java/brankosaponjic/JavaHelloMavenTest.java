@@ -1,10 +1,14 @@
 package brankosaponjic;
 
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.Test;
 
-public class JavaHelloMavenTest {
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+class JavaHelloMavenTest {
 
     @Test
-    public void testGetHello() {
+    void getHello() {
+        JavaHelloMaven javaHelloMaven = new JavaHelloMaven();
+        assertEquals("Hello Maven", javaHelloMaven.getHello());
     }
 }
